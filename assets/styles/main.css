@@ -1,0 +1,14 @@
+.jumbotron {
+    border-radius: 0px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png");
+    height: 500px;
+    background-size: cover;
+    }
+
+
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+      }
